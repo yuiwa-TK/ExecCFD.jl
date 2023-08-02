@@ -1,0 +1,13 @@
+name = "CFD"
+uuid = "fc774e8f-2cfb-4943-8bff-39ef09e50403"
+authors = ["Yuta Iwatani"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
